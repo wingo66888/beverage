@@ -1,0 +1,61 @@
+body{
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1510626176961-4b57d4fbad03?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80");
+    background-size: cover;
+}
+
+*{
+    border: 0.5px solid rgb(253, 3, 3);
+    font-family: 微軟正黑體;
+    color: #434cd4;
+}
+/* 盒子區塊 */
+#box {
+    height: 500px;
+}
+
+#logo{
+    font-size: 2em;
+}
+
+nav a{
+    border-bottom: 0.5px solid #434cd4;
+    padding: 10px 0;
+}
+
+nav a:hover{
+    background-color: rgb(5, 145, 75);
+}
+
+a{
+    text-decoration: none;
+}
+
+nav div{
+    float: right;
+}
+
+#content{
+    width: 50%;
+}
+
+#content a{
+    border: 0.5px solid #434cd4;
+    padding: 10px 15px;
+    background-color:rgb(5, 145, 75);
+}
+
+#content a:hover {
+    background-color:rgb(5, 145, 75);
+}
+/*按鈕區塊*/
+#button a{
+    border: 0.5px solid #434cd4;
+    padding: 10px 15px;
+    background-color: rgb(5, 145, 75);
+    border-radius: 50%;
+}
+
+#button a:hover {
+    background-color:rgb(5, 145, 75);
+}
